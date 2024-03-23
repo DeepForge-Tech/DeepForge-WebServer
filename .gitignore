@@ -30,9 +30,6 @@
 *.exe
 *.out
 *.app
-/build/
-build/
-.idea/
-.vscode/
-/.vscode/
 /.idea/
+/build/
+/.vscode/
