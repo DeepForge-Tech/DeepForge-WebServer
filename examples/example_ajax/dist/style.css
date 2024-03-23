@@ -1,0 +1,32 @@
+body {
+  margin: 50px;
+}
+
+h1 {
+  background-color: lightblue;
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+#val {
+  color: red;
+  font-weight: bold;
+}
+
+button {
+  background-color: lightblue;
+  border: none;
+  color: white;
+  font-size: 16px;
+  width: 100px;
+  padding: 15px 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
