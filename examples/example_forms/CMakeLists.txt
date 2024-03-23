@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.18)
+project(example_forms)
+add_executable(example_forms main.cpp)
+if(WIN32)
+    target_link_libraries(example_forms WebServer)
+endif()
+file(COPY dist DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/)

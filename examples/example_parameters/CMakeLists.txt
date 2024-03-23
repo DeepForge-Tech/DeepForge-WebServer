@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.18)
+project(example_parameters)
+add_executable(example_parameters main.cpp)
+if(WIN32)
+    target_link_libraries(example_parameters WebServer)
+endif()
+file(COPY dist DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/)

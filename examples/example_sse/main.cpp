@@ -1,7 +1,3 @@
-//
-// This example serves updates via server-side events.
-//
-
 #include "http_server.h"
 
 #include <chrono>
@@ -59,5 +55,5 @@ int main()
 
     std::thread th(activity);
 
-    http::server_start(12345, "dist", std::cerr);
+    http::server_start(8000, "dist", std::cerr);
 }

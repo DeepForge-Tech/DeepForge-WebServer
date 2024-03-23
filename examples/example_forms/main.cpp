@@ -1,7 +1,3 @@
-//
-// This example serves static dist with a simple form.
-//
-
 #include "http_server.h"
 
 #include <iostream>
@@ -39,5 +35,5 @@ int main()
 {
     http::register_html_post_action("greet", greet);
 
-    http::server_start(12345, "dist", std::cerr);
+    http::server_start(8000, "dist", std::cerr);
 }

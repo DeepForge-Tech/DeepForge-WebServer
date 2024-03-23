@@ -1,7 +1,3 @@
-//
-// This example serves static dist and has one dynamic action.
-//
-
 #include "http_server.h"
 
 #include <iostream>
@@ -43,5 +39,5 @@ int main()
 
     http::register_html_get_action("my_action", my_action);
 
-    http::server_start(12345, "dist", std::cerr);
+    http::server_start(8000, "dist", std::cerr);
 }

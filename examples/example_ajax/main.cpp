@@ -1,7 +1,3 @@
-//
-// This example serves static dist and has two dynamic actions to support AJAX calls.
-//
-
 #include "http_server.h"
 
 #include <iostream>
@@ -28,5 +24,5 @@ int main()
     http::register_text_get_action("up", up);
     http::register_text_get_action("down", down);
 
-    http::server_start(12345, "dist", std::cerr);
+    http::server_start(8000, "dist", std::cerr);
 }

@@ -1,17 +1,3 @@
-//
-// Copyright (C) 2001-2020 Maciej Sobczak
-//
-// This file declares wrappers that can be used
-// as IOStream-compatible TCP/IP or Unix sockets.
-//
-// On Windows the program that uses this utility
-// should be linked with Ws2_32.lib.
-//
-// Distributed under the Boost Software License, Version 1.0.
-// (See accompanying file Boost_Software_License_1_0.txt
-// or copy at http://www.opensource.org/licenses/bsl1.0.html)
-//
-
 #include "sockets.h"
 
 #include <sstream>

@@ -1,12 +1,3 @@
-//
-// Copyright (C) 2020 Maciej Sobczak
-//
-// This file implements the minimal, embedded HTTP server.
-//
-// Distributed under the Boost Software License, Version 1.0.
-// (See accompanying file Boost_Software_License_1_0.txt
-// or copy at http://www.opensource.org/licenses/bsl1.0.html)
-//
 
 #include "http_server.h"
 #include "sockets.h"
