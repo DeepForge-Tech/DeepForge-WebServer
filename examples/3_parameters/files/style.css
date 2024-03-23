@@ -1,0 +1,15 @@
+body {
+  margin: 50px;
+}
+
+h1 {
+  background-color: lightblue;
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+  padding: 20px;
+}
