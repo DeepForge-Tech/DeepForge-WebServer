@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.18)
 project(WebServer)
 set(BUILD_EXAMPLES ON)
-include_directories(${CMAKE_SOURCE_DIR}/src/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/include)
 set(SOURCE_FILES
         src/http_server.cpp
         src/include/http_server.h
